@@ -17,8 +17,8 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 target_color = (255, 0, 0)
 
 # Set the camera's latitude and longitude (assuming it is stationary)
-camera_latitude = 18.045338
-camera_longitude = -67.167846
+camera_latitude = 0.000000 # CHANGE THIS
+camera_longitude = 0.000000 # CHANGE THIS
 
 print(f'Starting While Loop')
 while True:
